@@ -1,3 +1,10 @@
+Fast facts:
+
+* RF output power: ~5mw
+* Transmitter Duty Cycle: <0.5%
+* Samples / Minute: 2
+* Estimated battery life: 5-15 years
+
 Had an opportunity to run a few power consumption analysis tests to attempt to put solid numbers to battery life, power consumption, wireless output power, etc.
 
 A CEEv2b2 (unreleased hardware, because that's what I have) was used, sourcing 3.0 volts and monitoring current consumption for the duration of a standard transmission, which occur approximately 2x a minute.
@@ -10,9 +17,3 @@ At 0.4mJ / minute, fewer than 250 joules per year are used.
 
 Depending upon battery chemistry, temperature, age, etc, a single AAA battery provides 1000 to 5000 joules, for a total of 2000 to 10000 joules per pair, offering an operational battery life conservatively in excess of five years.
 
-Fast facts:
-
-* RF output power: ~5mw
-* Transmitter duty cycle: <0.5%
-* Samples per Minute: 2
-* Estimated battery life: 5-15 years
